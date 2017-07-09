@@ -73,9 +73,9 @@ $android_os_list = array(
 				"dir" => "",
 				"title" => "KitKat - Android 4.4",
 			),
-			
+
 		);
-		
+
 function get_android_os_alias(){
 	global $android_os_list;
 	//return $android_os_list;
@@ -317,12 +317,11 @@ function get_android_os_alias(){
 
 function get_android_os(){
 	global $android_os_list;
-	return $android_os_list; 
+	return $android_os_list;
 }
 
 function get_android_root(){
 	return "E:\\AndroidSourceCode";
-	//return "/Users/shishengyi/资料/Android源代码";
 }
 
 function get_android_dir($verids){
