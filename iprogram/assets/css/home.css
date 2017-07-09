@@ -1,0 +1,63 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0; }
+fieldset,img{border:0;}
+em,strong,th{font-style:normal;font-weight:400;}
+ol,ul{list-style:none;}
+th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;} 
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit;}
+
+/* global */
+body{font-size:12px; font-family:"Microsoft Yahei",Arial, Helvetica, sans-serif;color:#4D4D4D;background:#ffffff;}
+a{color:#2464B2;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+img{border:0;}
+em{color:#F00; font-style:normal;}
+h3{margin:0; padding:0; font-size:14px;}
+ul,li{list-style:none;margin:0; padding:0;}
+p,form,div,h2,h4{margin:0; padding:0}
+*{margin:0; padding:0;}
+b{font-weight:bold;}
+.red{color:#F00;}
+.blue{color:#00F;}
+.green{color:#008000;}
+.cl{clear:both; overflow:hidden; height:0px;}
+.cl5{clear:both; overflow:hidden; height:5px;}
+.cl8{clear:both; overflow:hidden; height:8px;}
+.cl10{clear:both; overflow:hidden; height:10px;}
+input,button,select,textarea{outline:none}
+
+.w{ width:980px; margin:0 auto;}
+
+/* home */
+#top{ height:36px; line-height:36px; background-color:#FFF; color:#000;border-bottom:1px solid #ccc;}
+#top .fl{ display:inline-block; float:left; padding:0 10px;}
+
+.toplink{ cursor:pointer;margin:0px 5px;color:#000; }
+.toplink:hover{ text-decoration : none;color:#1EBF41; }
+
+.homelogo{  height:100px; margin:40px auto 20px auto; text-align:center; overflow:hidden; background:url(homelogo.png) no-repeat center top;}
+.homelogo h1{ height:100px; line-height:500px;}
+
+.searchbox{ width:610px; height:38px; margin:30px auto 20px auto; }
+.searchbox .q{ display:inline-block; background:#FFF;border:1px solid #1EBF41; width:485px; height:38px; font-size:16px; color:#CCC; margin:0px; padding:0 10px 0 10px; float:left; line-height:38px;}
+.searchbox .btn{ width:95px; height:38px;line-height:38px; border:none; background:#40CB00; cursor:pointer; float:right; display:inline-block; color:#FFF; text-align:center; font-size:16px;}
+.searchbox .btn:hover{ background:#4AE300;}
+
+.hotsearch{ height:300px; clear:both; width:600px; margin:10px auto 30px auto;}
+.hotsearch h2{ color:#000; font-size:16px; line-height:40px; text-align:center;}
+.hotsearch li{ height:20px;line-height:20px; width:190px;_width:185px; margin:5px 5px 0px 5px; display:inline-block; float:left; overflow:hidden;}
+.hotsearch li a{ color:#000; font-size:14px; display:inline-block; float:left;margin-left:5px; width:140px; overflow:hidden;cursor:pointer;}
+.hotsearch li a:hover{ color:#F00;}
+
+.hotsearch li .num{ display:inline-block; float:left; width:16px; height:16px; margin-top:2px; background-color:#609; line-height:16px; text-align:center; color:#FFF; font-size:12px;-moz-border-radius: 3px;-webkit-border-radius: 3px; border-radius:3px;}
+.hotsearch li .top1{ background-color:#F90;}
+.hotsearch li .top2{ background-color:#8CA6DC;}
+
+.bdsug_copy{ display:none;}
+
+#footer{ height:36px; line-height:36px; color:#000; text-align:center; margin:0px auto; }
+#footer a{ color:#F7F7F7}
+/* By www.huoduan.com */

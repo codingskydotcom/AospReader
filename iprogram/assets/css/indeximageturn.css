@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+
+.main_slide_container, .main_slide_container *{margin:0px; padding:0px;}
+
+.main_slide_container{width:380px; height:400px; overflow:hidden;position:relative;}
+
+.main_slider{position:absolute;}
+.main_slider li{ list-style:none;display:inline;}
+.main_slider img{ width:380px; height:400px; display:block;}
+
+.main_slider2{width:4000px;}
+.main_slider2 li{float:left;}
+
+.num{ position:absolute; right:5px; bottom:5px;}
+.num li{
+	float: left;
+	color: #FF7300;
+	text-align: center;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 3px 1px;
+	border: 1px solid #FF7300;
+	background-color: #fff;
+}
+.num li.on{
+	color: #fff;
+	line-height: 21px;
+	width: 21px;
+	height: 21px;
+	font-size: 16px;
+	margin: 0 1px;
+	border: 0;
+	background-color: #FF7300;
+	font-weight: bold;
+}
+
+.second_nav{ width:940px; margin: 0px; padding:0px; }
+.second_nav li{ 
+	float: left;
+	display: block;
+	height: 40px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px 10px;
+	line-height: 40px;
+	color: #fff;
+	font-family: Arial;
+	font-size: 20px;
+	cursor: pointer;
+	background: #62c4c7;
+	width: 93px;
+	text-align: center;
+}
+
+.second_nav li:hover{
+	background: #f7a1be;
+} 
+
+.second_nav_a
+{
+	color : #fff;
+}
+
+.second_nav_a:hover,
+.second_nav_a:active,
+.second_nav_aa:focus { 
+	color: #fff;
+	text-decoration: none;
+}
+
+.main_block_container
+{
+	border: solid 1px #9f9f9f;
+	background: #fff;
+}
+
+.main_block_container_noborder
+{
+	/*background: #fff;*/
+}
+
+.main_block_title
+{
+	float:left;
+	height:45px;
+	line-height:45px;
+	display:block;
+	margin-left:0px;
+	font-size:30px;
+	font-weight:bold;
+	color:#76a600;
+	text-shadow:1px 1px #fcf9ee;
+}
+
+
+
+
+
+
+
+
+/*
+	mainindex_good_div
+*/
+
+.mainindex_good_div
+{
+	float:left;
+	position:relative;
+	background:#fff;
+	width:215px;
+	height:285px;
+	display:inline;
+	overflow:hidden;
+	margin:5px;
+	padding:5px;
+	border: solid 1px #9f9f9f;
+}
+
+.mainindex_good_div:hover
+{
+	/*border: solid 1px #f00;*/	
+}
+
+
+
+.mainindex_good_image_div
+{
+	width:212px;
+	height:228px;
+	overflow:hidden;
+}
+
+.likevalue_span
+{
+	float:right;
+	color: #2f2f2f;
+	height:30px;
+	line-height: 30px;
+	font-size:15px;
+}
+
+.mainindex_good_title_span
+{
+	/*color: #2f2f2f;*/
+	height:30px;
+	line-height: 30px;
+	font-size:15px;
+	display:block;
+	overflow:hidden;
+	-o-text-overflow: ellipsis; 
+	text-overflow: ellipsis; 
+}
+

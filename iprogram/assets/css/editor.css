@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-family:'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro';
+	font-size: 12px;
+	line-height: normal;
+}
+
+
+/* edit 相关 */
+.editor_link 
+{
+float: left;
+white-space: nowrap;
+margin-top: 3px;
+position: relative;
+z-index: 1;
+list-style: none;
+margin: 0px;
+padding: 0px;
+line-height: 30px;
+color: #ddd;
+font-size:12px;
+height:30px;
+}
+
+.editor_link_item
+{
+	float: left;
+	position: relative;
+	margin: 0px 5px 0px 5px;
+	padding: 0px 5px 0px 5px;
+	text-align:center;
+	height:30px;
+}
+
+.lang_link
+{
+	color:#900;
+	padding:5px;
+	height:30px;
+	line-height:30px;
+}
+
+.lang_link:hover,
+.lang_link:active,
+.lang_link:focus { 
+	text-decoration: none;
+	color: #fff;
+	background:#900;
+}
+
+.lang_link_selected
+{
+	color: #fff;
+	padding:5px;
+	background:#900;
+	height:30px;
+	line-height:30px;
+}
+
+
+.lang_link_selected:hover,
+.lang_link_selected:active,
+.lang_link_selected:focus {
+	color: #fff;
+}
+
+.code_item
+{
+	font-size:16px;
+	height:30px;
+	line-height:30px;
+	background:#fff;
+	cursor:pointer;	
+	width:100%;
+}
+
+.code_item:hover,
+.code_item:active,
+.code_item:focus
+{
+	background:#C58873;
+	color:#fff;
+}
+
+.code_item_selected
+{
+	font-size:16px;
+	height:30px;
+	line-height:30px;
+	background:#900;
+	cursor:pointer;	
+	width:100%;
+	color:#fff;
+}
+
+.code_item_selected:hover,
+.code_item_selected:active,
+.code_item_selected:focus
+{
+	background:#900;
+	color:#fff;
+}
+
+.toolbar_button
+{
+display: inline-block;
+margin: 0px 5px;
+padding: 0px 5px;
+line-height: 30px;
+height: 30px;
+font: bold 12px/28px "微软雅黑",Arial,"华文黑体","黑体",sans-serif;
+color: #2e2e2e;
+background: #e3edf9;
+border-radius: 1px;
+border: 1px solid #bdd5ee;
+cursor: pointer;
+}

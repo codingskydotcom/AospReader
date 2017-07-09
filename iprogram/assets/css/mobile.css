@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+body
+{
+	font: normal 100% Helvetica, Arial, sans-serif;
+}
+
+img, object { max-width: 100%;}
+img { -ms-interpolation-mode: bicubic; }
+
+h1 
+{
+	font-size: 1.5em;
+}
+
+small
+{
+	font-size: 0.875em;
+}
+
+
+
